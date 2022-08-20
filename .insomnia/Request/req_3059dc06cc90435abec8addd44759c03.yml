@@ -1,0 +1,32 @@
+_id: req_3059dc06cc90435abec8addd44759c03
+type: Request
+parentId: fld_a5aa3105a4274318b90b37e753e378f5
+modified: 1660986843156
+created: 1658337985299
+url: "{{  _.base_url }}/api/authentication/auth"
+name: Auth w/ Credentials
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"strategy": "local",
+    	"email": "noreply@talkiiing.ru",
+    	"password": "noreplypass",
+    	"clientId": "foobazbarity"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fb687cb2983e449c9241bde63b380bb7
+authentication: {}
+metaSortKey: -1658395383313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

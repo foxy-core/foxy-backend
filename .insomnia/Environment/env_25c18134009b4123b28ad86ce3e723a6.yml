@@ -1,0 +1,24 @@
+_id: env_25c18134009b4123b28ad86ce3e723a6
+type: Environment
+parentId: env_078494d49b3c909649ed3ee871da936e5de5d455
+modified: 1660986639671
+created: 1658395109759
+name: Poke
+data:
+  scheme: http
+  host: localhost
+  base_path: /api
+  app_id: app_id=insomnia
+  base_url: http://localhost:3071
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInByb2ZpbGVJZCI6MSwiY2xpZW50SWQiOiJmb29iYXpiYXJpdHkiLCJpYXQiOjE2NjA4NDc2MjYsImV4cCI6MTY2MDg1MTIyNiwiaXNzIjoicG9rZS1hcGkifQ.Jy539XdsH9SX7b9q-_Eeo6e3pP31t8QBTaWRDSJ8Ecw
+dataPropertyOrder:
+  "&":
+    - scheme
+    - host
+    - base_path
+    - app_id
+    - base_url
+    - token
+color: "#a666f4"
+isPrivate: false
+metaSortKey: 1658395109759

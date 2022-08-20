@@ -1,0 +1,21 @@
+_id: req_b277766f96124efb95843f197ff35af7
+type: Request
+parentId: fld_38dd89cc2b394871b6b4b294a21510ae
+modified: 1660846920623
+created: 1658693875773
+url: "{{  _.base_url }}/api"
+name: Get API Schema
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658395424484
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

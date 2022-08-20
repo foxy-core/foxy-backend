@@ -1,0 +1,31 @@
+_id: req_6723632636d14c87a2a2ec5115e51e80
+type: Request
+parentId: fld_a5aa3105a4274318b90b37e753e378f5
+modified: 1660986835156
+created: 1658336599198
+url: "{{  _.base_url }}/api/authentication/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"strategy": "local",
+    	"email": "noreply@talkiiing.ru",
+    	"password": "noreplypass"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fb687cb2983e449c9241bde63b380bb7
+authentication: {}
+metaSortKey: -1658395383263
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

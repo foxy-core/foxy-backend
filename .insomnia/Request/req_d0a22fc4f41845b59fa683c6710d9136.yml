@@ -1,0 +1,25 @@
+_id: req_d0a22fc4f41845b59fa683c6710d9136
+type: Request
+parentId: fld_e6c1d3ceb8b647a08cb5a3d33338fd9b
+modified: 1660847647052
+created: 1660413191232
+url: "{{  _.base_url }}/api/profile/my"
+name: my
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{_.token}}"
+  prefix: a
+  disabled: false
+metaSortKey: -1658229801194
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

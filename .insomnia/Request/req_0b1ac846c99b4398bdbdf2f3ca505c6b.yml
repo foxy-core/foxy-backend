@@ -1,0 +1,31 @@
+_id: req_0b1ac846c99b4398bdbdf2f3ca505c6b
+type: Request
+parentId: fld_a5aa3105a4274318b90b37e753e378f5
+modified: 1660986690351
+created: 1658343943172
+url: "{{  _.base_url }}/api/authentication/auth"
+name: Auth w/ Refresh Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"strategy": "refreshToken",
+    	"oldAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInByb2ZpbGVJZCI6LTEsImNsaWVudElkIjoiZm9vYmFyaXR5IiwiaWF0IjoxNjYwNDEwMzM3LCJleHAiOjE2NjA0MTAzOTcsImlzcyI6InBva2UtYXBpIn0.IMlaDe6ifX9wzDBjfAU9AbYq1Q8nKr0CjUsLlIqYJOg",
+    		"refreshToken": "_wDiB6XnWLZPhvFK_xWaOmHjeyGwSN-O1k5SW-Dp4aThfAveNDgFNyZlddXSQ0-o"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fb687cb2983e449c9241bde63b380bb7
+authentication: {}
+metaSortKey: -1658395383363
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

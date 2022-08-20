@@ -1,0 +1,35 @@
+_id: req_f026d46d26bc461a84de5b3b85090c7b
+type: Request
+parentId: fld_41f7d0937bdd4ff180456cab71bdb1cc
+modified: 1660892017274
+created: 1660666499768
+url: "{{ _.base_url }}/uploads/upload/ZbCkuzyt4PHg4sVYl12lumPb-Clngusm"
+name: upload
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_aa940d8e762049138feb476348278037
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/talk/Downloads/unnamed.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5f71919e91f842b39d2e45a5fdf7eac6
+authentication:
+  type: bearer
+  token: "{{_.token}}"
+  prefix: a
+metaSortKey: -1658229801237.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,44 @@
+_id: spc_304b846d680e41f68bb56f37c7faef2b
+type: ApiSpec
+parentId: wrk_e7dde2edd5ea4095af45277639ad2ba8
+modified: 1660986584453
+created: 1658149665294
+fileName: Poke API
+contents: |
+  openapi: 3.0.0
+  info:
+    description: "Poke API reference for Foxy"
+    version: 1.0.0
+    title: Swagger Poke | Foxy
+    contact:
+      email: admin@talkiiing.ru
+    license:
+      name: Unlicensed (Contact for more info)
+  tags:
+    - name: authentication
+      description: Authentication requests based on JWT
+    - name: profile
+      description: Access to Profiles
+    - name: cards
+      description: Access to Cards
+    - name: spark
+      description: Access to Sparks
+    - name: likes
+      description: Access to Likes
+    - name: files
+      description: Access to Files and Upload
+  paths:
+    /auth:
+      post:
+        tags:
+          - authentication
+        summary: Authentication
+        description: "Authentication with some strategy"
+        operationId: auth
+        responses:
+          "400":
+            description: "BAD_REQUEST - Invalid auth credentials passed"
+  servers:
+    - url: http://localhost:3071/api
+    - url: https://foxy.s.talkiiing.ru/api
+contentType: yaml

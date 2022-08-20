@@ -1,0 +1,24 @@
+_id: env_de50c273b89740c6a55554209bec20d3
+type: Environment
+parentId: env_078494d49b3c909649ed3ee871da936e5de5d455
+modified: 1660890345052
+created: 1660846776146
+name: Poke Deploy
+data:
+  scheme: http
+  host: localhost
+  base_path: /api
+  app_id: app_id=insomnia
+  base_url: https://foxy.s.talkiiing.ru
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInByb2ZpbGVJZCI6MSwiY2xpZW50SWQiOiJmb29iYXpiYXJpdHkiLCJpYXQiOjE2NjA4OTAzMjMsImV4cCI6MTY2MDg5MzkyMywiaXNzIjoiZm94eS1hcGkifQ.D3ow-4DfRto0dlNw7Djd9Cc4Z2cr7Bg9HL6xcenZIL4
+dataPropertyOrder:
+  "&":
+    - scheme
+    - host
+    - base_path
+    - app_id
+    - base_url
+    - token
+color: "#00c7b0"
+isPrivate: false
+metaSortKey: 1660846776146

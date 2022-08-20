@@ -1,0 +1,32 @@
+_id: req_2cfd58f7ae5446c9bb651480b06d74fe
+type: Request
+parentId: fld_0c83e6289706421d9b5a2556aec23035
+modified: 1659117685859
+created: 1658224303796
+url: http://localhost:3071/api/wall/createPost
+name: wall createPost
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sex": "yeah"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23e09f7815684479b12e51b1b884621d
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjAsImNsaWVudElkIjoiZGVmYXVsdCIsImlhdCI6MTY1ODc1NDAyMywiZXhwIjoxNjU4NzU0MDgzLCJpc3MiOiJwb2tlLWFwaSJ9.ObkGN-7psaIeWfBlGMMh0ogZo0kP3i0Xl_HW2XEFGJo
+  prefix: a
+metaSortKey: -1658229801144
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

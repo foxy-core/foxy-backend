@@ -1,0 +1,24 @@
+_id: req_13963bbf4dec4305a75c5164df841ebd
+type: Request
+parentId: fld_0c83e6289706421d9b5a2556aec23035
+modified: 1660410357572
+created: 1658229801094
+url: http://localhost:3071/api/wall/list
+name: wall list
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInByb2ZpbGVJZCI6LTEsImNsaWVudElkIjoiZm9vYmFyaXR5IiwiaWF0IjoxNjYwNDEwMzQ5LCJleHAiOjE2NjA0MTA0MDksImlzcyI6InBva2UtYXBpIn0.KPPZLjGv7rU0wwGK8teRSAWmISGO_lbTh8iflUlzGjo
+  prefix: B
+metaSortKey: -1658229801094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

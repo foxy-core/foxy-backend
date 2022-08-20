@@ -1,0 +1,40 @@
+_id: req_ea0244aeb0344cdfbb1b55e1207d8c2e
+type: Request
+parentId: fld_e6c1d3ceb8b647a08cb5a3d33338fd9b
+modified: 1660846978698
+created: 1660416311894
+url: "{{  _.base_url }}/api/profile/edit"
+name: edit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"weight" : 115,
+    	"lookingFor": "Love",
+    	"personality": "ENTP",
+    	"zodiac": "Aries",
+    	"work": {
+    		"place": "AMTEX",
+    		"position": "Frontend-developer"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23e09f7815684479b12e51b1b884621d
+    disabled: false
+authentication:
+  type: bearer
+  token: "{{_.token}}"
+  prefix: a
+metaSortKey: -1658229801219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

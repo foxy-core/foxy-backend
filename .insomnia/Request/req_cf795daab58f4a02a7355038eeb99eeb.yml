@@ -1,0 +1,36 @@
+_id: req_cf795daab58f4a02a7355038eeb99eeb
+type: Request
+parentId: fld_e6c1d3ceb8b647a08cb5a3d33338fd9b
+modified: 1660846975836
+created: 1660413191234
+url: "{{  _.base_url }}/api/profile/create"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Vitaly",
+    	"sex": "Male",
+    	"age": 21,
+    	"interests": ["Talkiiing", "AlcoholicTrip", "Music"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23e09f7815684479b12e51b1b884621d
+    disabled: false
+authentication:
+  type: bearer
+  token: "{{_.token}}"
+  prefix: a
+metaSortKey: -1658229801244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

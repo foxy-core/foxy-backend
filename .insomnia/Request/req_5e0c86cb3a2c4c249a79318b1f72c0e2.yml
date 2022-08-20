@@ -1,0 +1,32 @@
+_id: req_5e0c86cb3a2c4c249a79318b1f72c0e2
+type: Request
+parentId: fld_131a75a3497a484c816f844ce2ed7298
+modified: 1660666430690
+created: 1660469915242
+url: http://localhost:3071/api/cards/get
+name: get
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"count": 12
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d36d19a1c5344536aa12e2af26857d3e
+authentication:
+  type: bearer
+  token: "{{_.token}}"
+  prefix: a
+metaSortKey: -1658229801244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

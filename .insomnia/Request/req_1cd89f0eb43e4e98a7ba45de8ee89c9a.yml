@@ -1,0 +1,32 @@
+_id: req_1cd89f0eb43e4e98a7ba45de8ee89c9a
+type: Request
+parentId: fld_0c83e6289706421d9b5a2556aec23035
+modified: 1659117108408
+created: 1658149665300
+url: http://localhost:3071/api/wall/get
+name: wall get
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"target": "ovyePVSj00EqRb-6BDZBsKLN"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a3623a383de046c1a22f8b2dd2e73e29
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjAsImNsaWVudElkIjoiZGVmYXVsdCIsImlhdCI6MTY1OTExMjYxOSwiZXhwIjoxNjU5MTEyNjc5LCJpc3MiOiJwb2tlLWFwaSJ9.0CjhplLlPvkdLNHwzYy5BpHBg1ZiDLRH_U3mDHOpmu0
+  prefix: Bearer
+metaSortKey: -1658229801194
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

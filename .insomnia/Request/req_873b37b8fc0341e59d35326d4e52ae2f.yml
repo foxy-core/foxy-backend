@@ -1,0 +1,33 @@
+_id: req_873b37b8fc0341e59d35326d4e52ae2f
+type: Request
+parentId: fld_ebcdbf9d64e746319df0978ed13fb828
+modified: 1660487308552
+created: 1660472512900
+url: http://localhost:3071/api/spark/create
+name: create like
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"recipientId": 7,
+    	"sparkType": "Like"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d36d19a1c5344536aa12e2af26857d3e
+authentication:
+  type: bearer
+  token: "{{_.token}}"
+  prefix: a
+metaSortKey: -1658229801244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
