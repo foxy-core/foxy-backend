@@ -88,7 +88,7 @@ export const InterestsTranslations: Record<Interests, string> = {
   Series: 'Сериалы',
   Songwriting: 'Написание песен',
   Tattoos: 'Тату',
-  Drawing: 'Рисованик',
+  Drawing: 'Рисование',
   SupSurfing: 'Сап-серфинг',
   Surfing: 'Серфинг',
   Bambindon: 'Бамбиндон',
