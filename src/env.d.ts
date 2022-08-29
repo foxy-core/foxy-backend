@@ -31,6 +31,8 @@ interface ImportMetaEnv {
   readonly VITE_TELEGRAM_BOT_TOKEN: string
   readonly VITE_METRICS_PATH: string
   readonly VITE_DUMP_METRICS_DELAY_SEC: string
+  readonly VITE_SERVER_CERT_PATH: string
+  readonly VITE_SERVER_KEY_PATH: string
 }
 
 interface ImportMeta {
