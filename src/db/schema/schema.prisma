@@ -314,6 +314,7 @@ model Profile {
 
   notifications     SparkNotification[] @relation(name: "sparkRecipientProfileRelation")
   sentNotifications SparkNotification[] @relation(name: "sparkInitiatorProfileRelation")
+  conversations     Conversation[]
 }
 
 model Spark {
@@ -344,4 +345,22 @@ model SparkNotification {
   recipient   Profile  @relation(name: "sparkRecipientProfileRelation", fields: [recipientId], references: [id])
   isRead      Boolean  @default(false)
   createdAt   DateTime @default(now())
+}
+
+model Conversation {
+  id           Int       @id @default(autoincrement())
+  participants Profile[]
+
+  createdAt     DateTime  @default(now())
+  lastMessageId Int
+  messages      Message[] @relation(name: "conversationMessagesRelation")
+}
+
+model Message {
+  id             Int          @id @default(autoincrement())
+  conversationId Int
+  conversation   Conversation @relation(name: "conversationMessagesRelation", fields: [conversationId], references: [id])
+  fromId         Int
+
+  @@unique([id, conversationId])
 }
