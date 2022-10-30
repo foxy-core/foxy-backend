@@ -2,7 +2,7 @@ import { writeFile, readFile, mkdir } from 'fs/promises'
 import path from 'path'
 import { justLog } from '@/utils/justLog'
 
-const METRICS_PATH = import.meta.env.VITE_METRICS_PATH
+const METRICS_PATH = process.env.VITE_METRICS_PATH
 
 export const openFile = <Type extends Record<string, any>>(
   storageName: string,

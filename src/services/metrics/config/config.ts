@@ -1,5 +1,5 @@
 export const DUMP_METRICS_DELAY_SEC = (() => {
-  const delay = import.meta.env.VITE_DUMP_METRICS_DELAY_SEC
+  const delay = process.env.VITE_DUMP_METRICS_DELAY_SEC
   const parsed = parseInt(delay)
   if (!delay || Number.isNaN(parsed)) {
     console.warn(

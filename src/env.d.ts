@@ -34,6 +34,14 @@ interface ImportMetaEnv {
   readonly VITE_DUMP_METRICS_DELAY_SEC: string
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+namespace NodeJS {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  interface ProcessEnv extends ImportMetaEnv {
+    NODE_ENV: string
+  }
+}
+
 interface ImportMeta {
   readonly env: ImportMetaEnv
 }
