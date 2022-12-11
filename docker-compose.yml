@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    restart: on-failure
+    env_file:
+      - .env
+    networks:
+      - backend
+    ports:
+      - ${VITE_PORT}:${VITE_PORT}
+
+networks:
+  backend:
+    driver: bridge

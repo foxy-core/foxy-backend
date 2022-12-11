@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env*
+certificates/
+docker/
+packages/
+.eslintrc.js
+depGraph.png
+ecosystem.config.js
+README.md

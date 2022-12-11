@@ -1,4 +1,5 @@
 import { StringCodec } from 'nats'
+import { buildRejectedResult, buildResolvedResult } from '@/common/builders'
 import { combineAuthRequired } from '@/common/controllers/combineAuthRequired'
 import { getAddListenerMetadata } from '@/common/controllers/getAddListenerMetadata'
 import { handlerRestrictUnauthorized } from '@/common/controllers/handlerRestrictUnauthorized'
@@ -16,9 +17,6 @@ import {
 } from '@/types/listenerRelated.types'
 import { RegistrarInjection } from '@/types/registrar.types'
 import { parseJSON } from '@/utils/parseJSON'
-import { justLog } from '@/utils/justLog'
-import { BROKER_INTERNAL_SUBJECT } from '@/config/broker'
-import { buildRejectedResult, buildResolvedResult } from '@/common/builders'
 
 const stringCodec = StringCodec()
 
